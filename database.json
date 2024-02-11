@@ -203,7 +203,67 @@
             "dorado": { "s": 15, "m": 18, "l": 20 },
             "plateado": { "s": 15, "m": 18, "l": 20 }
           }
-        }
+        },
+        {
+          "id": 17,
+          "nombre": "Eternal Love Necklace",
+          "codigo": "91234",
+          "precioUnitario": 450.99,
+          "tipoAccesorio": "necklace",
+          "imagenes": ["../assets/Productos/necklace1.jpg", "../assets/Productos/necklace1_2.jpg"],
+          "descripcion": "Stunning necklace symbolizing eternal love, perfect for any occasion.",
+          "stock": {
+              "oro": {
+                  "talla": { "única": 15 },
+                  "color": "#FFD700"
+              }
+          }
+      },
+      {
+          "id": 18,
+          "nombre": "Crystal Elegance Earrings",
+          "codigo": "83746",
+          "precioUnitario": 199.99,
+          "tipoAccesorio": "earring",
+          "imagenes": ["../assets/Productos/earring1.jpg", "../assets/Productos/earring1_2.jpg"],
+          "descripcion": "Elegant earrings featuring shimmering crystals, adding a touch of sophistication to any outfit.",
+          "stock": {
+              "plata": {
+                  "talla": { "única": 10 },
+                  "color": "#C0C0C0"
+              }
+          }
+      },
+      {
+          "id": 19,
+          "nombre": "Sapphire Dreams Necklace",
+          "codigo": "94672",
+          "precioUnitario": 799.99,
+          "tipoAccesorio": "necklace",
+          "imagenes": ["../assets/Productos/necklace2.jpg", "../assets/Productos/necklace2_2.jpg"],
+          "descripcion": "Dreamy necklace adorned with sapphire stones, making it a truly luxurious piece.",
+          "stock": {
+              "oro": {
+                  "talla": { "única": 5 },
+                  "color": "#FFD700"
+              }
+          }
+      },
+      {
+          "id": 20,
+          "nombre": "Celestial Beauty Ring",
+          "codigo": "76289",
+          "precioUnitario": 359.99,
+          "tipoAccesorio": "ring",
+          "imagenes": ["../assets/Productos/ring1.jpg", "../assets/Productos/ring1_2.jpg"],
+          "descripcion": "Exquisite ring featuring celestial motifs, a captivating piece for starry-eyed dreamers.",
+          "stock": {
+              "plata": {
+                  "talla": { "seis": 7, "siete": 8, "ocho": 5 },
+                  "color": "#C0C0C0"
+              }
+          }
+      }
     ]
-      
+  
 }
