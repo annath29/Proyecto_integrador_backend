@@ -1,368 +1,409 @@
 {
-    "productos" : [
-        {
-          "id": 1,
-          "nombre": "Luxury Charms Ring",
-          "codigo": "78205",
-          "precioUnitario": 620.73,
-          "tipoAccesorio": "ring",
-          "imagenes": ["../assets/Joyas/Selection 1.png", "ring_gold_2.png"],
-          "description": "Elegant ring of gold with unique design.",
-          "stock": {
-            "dorado":{
-              "talla":{ "seis": 1, "siete": 17, "ocho": 8 },
-              "color":"#3334"
-            },
-            "plata":{
-              "talla":{ "seis": 1, "siete": 17, "ocho": 8 },
-              "color":"#3334"
-            }
-          }
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Luxury Charms Ring",
+      "codigo": "78205",
+      "precioUnitario": 620.73,
+      "tipoAccesorio": "ring",
+      "imagenes": ["../assets/Joyas/Selection 1.png", "../assets/Details/detail1.png","../assets/Details/detail2.png","../assets/Details/detail3.png"],
+      "descripcion": "Elegant ring of gold with unique design.",
+      "stock": {
+        "golden": {
+          "talla": { "seis": 1, "siete": 17, "ocho": 8 },
+          "color": "#efb810"
         },
-        {
-          "id": 2,
-          "nombre": "Exquisite Earrings",
-          "codigo": "92701",
-          "precioUnitario": 125.28,
-          "tipoAccesorio": "earring",
-          "imagenes": ["../assets/Productos/Producto2.png", "earring_gold_2.png"],
-          "description": "Gold earring with magnetic closure.",
-          "stock": {
-            "dorado": {
-              "talla": { "s": 4, "m": 8 },
-              "color": "#3334"
-            },
-            "oroRosa": {
-              "talla": { "s": 13 },
-              "color": "#3334"
-            },
-            "plata": {
-              "talla": { "s": 7, "m": 2, "l": 3 },
-              "color": "#3334"
-            }
-          }
-        },
-        {
-          "id": 3,
-          "nombre": "Delights Earrings",
-          "codigo": "92781",
-          "precioUnitario": 327.71,
-          "tipoAccesorio": "earring",
-          "imagenes": ["../assets/Productos/Producto4.jpeg", "earring_silver_gold_2.png"],
-          "description": "Silver earring with gold-plated with a beautiful dolphin clip.",
-          "stock": {
-            "dorado": {
-              "talla": { "m": 7, "l": 10 },
-              "color": "#3334"
-            },
-            "oroRosa": {
-              "talla": { "s": 7, "m": 2 },
-              "color": "#3334"
-            }
-          }
-        },
-        {
-          "id": 4,
-          "nombre": "Luxury Gems Necklace",
-          "codigo": "82051",
-          "precioUnitario": 168.76,
-          "tipoAccesorio": "necklace",
-          "imagenes": ["../assets/Catalogo/catalogo_producto1.png", "necklace_gem_2.png"],
-          "description": "Elegant necklace of luxury gems.",
-          "stock": {
-            "dorado": {
-              "talla": { "s": 9, "m": 27, "l": 5 },
-              "color": "#3334"
-            },
-            "plata": {
-              "talla": { "s": 13, "m": 4, "l": 8 },
-              "color": "#3334"
-            }
-          }
-        },
-        {
-          "id": 5,
-          "nombre": "Aurora Ring",
-          "codigo": "78202",
-          "precioUnitario": 125.28,
-          "tipoAccesorio": "ring",
-          "imagenes": ["../assets/Catalogo/catalogo_producto2.png", "../assets/Catalogo/catalogo_product2_2.png"],
-          "description": "Dazzling ring inspired by the northern lights.",
-          "stock": {
-            "dorado": {
-              "talla": { "cinco": 8, "seis": 16, "siete": 4 },
-              "color": "#3334"
-            },
-            "plata": {
-              "talla": { "cinco": 6, "seis": 1, "siete": 2 },
-              "color": "#3334"
-            }
-          }
-        },
-        {
-          "id": 6,
-          "nombre": "Reflections Necklace",
-          "codigo": "82097",
-          "precioUnitario": 620.73,
-          "tipoAccesorio": "necklace",
-          "imagenes": ["../assets/Catalogo/catalogo_producto3.png", "../assets/Catalogo/catalogo_product3_2.png"],
-          "description": "Necklace with reflective and elegant design.",
-          "stock": {
-            "dorado": {
-              "talla": { "s": 2, "m": 11, "l": 5 },
-              "color": "#3334"
-            },
-            "plata": {
-              "talla": { "s": 3, "m": 16, "l": 1 },
-              "color": "#3334"
-            }
-          }
-        },
-        {
-          "id": 7,
-          "nombre": "Dreamy Infinity Ring",
-          "codigo": "78224",
-          "precioUnitario": 527.71,
-          "tipoAccesorio": "ring",
-          "imagenes": ["../assets/Catalogo/catalogo_producto4.png", "../assets/Catalogo/catalogo_producto4_2.png"],
-          "description": "Ring with beautiful and elegant jewels of the highest quality.",
-          "stock": {
-            "dorado": {
-              "talla": { "cinco": 2, "seis": 3, "ocho": 8 },
-              "color": "#3334"
-            },
-            "plata": {
-              "talla": { "cinco": 1, "seis": 2, "ocho": 5 },
-              "color": "#3334"
-            }
-          }
-        },
-        {
-          "id": 8,
-          "nombre": "Opulent Jewels Ring",
-          "codigo": "78239",
-          "precioUnitario": 168.76,
-          "tipoAccesorio": "ring",
-          "imagenes": ["../assets/Catalogo/catalogo_producto5.png", "../assets/Catalogo/catalogo_producto5_2.png"],
-          "description": "Infinity ring with a touch of dream.",
-          "stock": {
-            "dorado": {
-              "talla": { "cinco": 4, "seis": 18, "siete": 6 },
-              "color": "#3334"
-            },
-            "plata": {
-              "talla": { "cinco": 1, "seis": 8, "siete": 3 },
-              "color": "#3334"
-            }
-          }
-        },
-        {
-          "id": 9,
-          "nombre": "Serene Solitaire Earrings",
-          "codigo": "92716",
-          "precioUnitario": 125.28,
-          "tipoAccesorio": "earring",
-          "imagenes": ["../assets/Catalogo/catalogo_producto6.png", "../assets/Catalogo/catalogo_producto6_2.png"],
-          "description": "Earrings in a beautiful blue tone that convey serenity.",
-          "stock": {
-            "dorado": {
-              "talla": { "s": 4, "l": 3 },
-              "color": "#3334"
-            },
-            "oroRosa": {
-              "talla": { "m": 7, "l": 3 },
-              "color": "#3334"
-            }
-          }
-        },
-        {
-          "id": 10,
-          "nombre": "Timeless Halo Earrings",
-          "codigo": "92777",
-          "precioUnitario": 620.73,
-          "tipoAccesorio": "earring",
-          "imagenes": ["../assets/Catalogo/catalogo_producto7.png", "../assets/Catalogo/catalogo_producto7_2.png"],
-          "description": "Earrings with timeless and elegant halo.",
-          "stock": {
-            "dorado": {
-              "talla": { "s": 8 },
-              "color": "#3334"
-            },
-            "plata": {
-              "talla": { "m": 1, "s": 6 },
-              "color": "#3334"
-            }
-          }
-        },
-        {
-          "id": 11,
-          "nombre": "Exquisite Earrings",
-          "codigo": "92783",
-          "precioUnitario": 527.71,
-          "tipoAccesorio": "earring",
-          "imagenes": ["../assets/Catalogo/catalogo_producto8.png", "../assets/Catalogo/catalogo_producto8_2.png"],
-          "description": "Earrings that will accompany you on any special occasion.",
-          "stock": {
-            "dorado": {
-              "talla": { "l": 23 },
-              "color": "#3334"
-            },
-            "plata": {
-              "talla": { "m": 23 },
-              "color": "#3334"
-            }
-          }
-        },
-        {
-          "id": 12,
-          "nombre": "Timeless Elegance Ring",
-          "precioUnitario": 168.76,
-          "tipoAccesorio": "ring",
-          "imagenes": ["../assets/Catalogo/catalogo_producto_img_grande.png"],
-          "description": "Ring with timeless elegance.",
-          "stock": {
-            "dorado": {
-              "talla": { "s": 5, "m": 7, "l": 8 },
-              "color": "#3334"
-            },
-            "plateado": {
-              "talla": { "s": 5, "m": 7, "l": 8 },
-              "color": "#3334"
-            }
-          }
-        },
-        {
-          "id": 13,
-          "nombre": "Luxury Charms Ring",
-          "precioUnitario": 620.73,
-          "tipoAccesorio": "ring",
-          "imagenes": ["../assets/Catalogo/catalogo_producto9.png"],
-          "description": "Ring with luxury charms.",
-          "stock": {
-            "dorado": {
-              "talla": { "s": 8, "m": 10, "l": 12 },
-              "color": "#3334"
-            },
-            "plateado": {
-              "talla": { "s": 8, "m": 10, "l": 12 },
-              "color": "#3334"
-            }
-          }
-        },
-        {
-          "id": 14,
-          "nombre": "Blissful Bloom Ring",
-          "precioUnitario": 620.73,
-          "tipoAccesorio": "ring",
-          "imagenes": ["../assets/Catalogo/catalogo_producto10.png"],
-          "description": "Ring with flowers for a sense of bliss.",
-          "stock": {
-            "dorado": {
-              "talla": { "s": 10, "m": 12, "l": 15 },
-              "color": "#3334"
-            },
-            "plateado": {
-              "talla": { "s": 10, "m": 12, "l": 15 },
-              "color": "#3334"
-            }
-          }
-        },
-        {
-          "id": 15,
-          "nombre": "Sparkling Ring",
-          "precioUnitario": 620.73,
-          "tipoAccesorio": "ring",
-          "imagenes": ["../assets/Catalogo/catalogo_producto11.png"],
-          "description": "Shining ring to stand out on any occasion.",
-          "stock": {
-            "dorado": {
-              "talla": { "s": 12, "m": 15, "l": 18 },
-              "color": "#3334"
-            },
-            "plateado": {
-              "talla": { "s": 12, "m": 15, "l": 18 },
-              "color": "#3334"
-            }
-          }
-        },
-        {
-          "id": 16,
-          "nombre": "Glimmering Ring",
-          "precioUnitario": 620.73,
-          "tipoAccesorio": "ring",
-          "imagenes": ["../assets/Catalogo/catalogo_producto12.png"],
-          "description": "Ring that glimmers with its own light.",
-          "stock": {
-            "dorado": {
-              "talla": { "s": 15, "m": 18, "l": 20 },
-              "color": "#3334"
-            },
-            "plateado": {
-              "talla": { "s": 15, "m": 18, "l": 20 },
-              "color": "#3334"
-            }
-          }
-        },
-        {
-          "id": 17,
-          "nombre": "Eternal Love Necklace",
-          "codigo": "91234",
-          "precioUnitario": 450.99,
-          "tipoAccesorio": "necklace",
-          "imagenes": ["../assets/Productos/necklace1.jpg", "../assets/Productos/necklace1_2.jpg"],
-          "descripcion": "Stunning necklace symbolizing eternal love, perfect for any occasion.",
-          "stock": {
-              "oro": {
-                  "talla": { "única": 15 },
-                  "color": "#FFD700"
-              }
-          }
-      },
-      {
-          "id": 18,
-          "nombre": "Crystal Elegance Earrings",
-          "codigo": "83746",
-          "precioUnitario": 199.99,
-          "tipoAccesorio": "earring",
-          "imagenes": ["../assets/Productos/earring1.jpg", "../assets/Productos/earring1_2.jpg"],
-          "descripcion": "Elegant earrings featuring shimmering crystals, adding a touch of sophistication to any outfit.",
-          "stock": {
-              "plata": {
-                  "talla": { "única": 10 },
-                  "color": "#C0C0C0"
-              }
-          }
-      },
-      {
-          "id": 19,
-          "nombre": "Sapphire Dreams Necklace",
-          "codigo": "94672",
-          "precioUnitario": 799.99,
-          "tipoAccesorio": "necklace",
-          "imagenes": ["../assets/Productos/necklace2.jpg", "../assets/Productos/necklace2_2.jpg"],
-          "descripcion": "Dreamy necklace adorned with sapphire stones, making it a truly luxurious piece.",
-          "stock": {
-              "oro": {
-                  "talla": { "única": 5 },
-                  "color": "#FFD700"
-              }
-          }
-      },
-      {
-          "id": 20,
-          "nombre": "Celestial Beauty Ring",
-          "codigo": "76289",
-          "precioUnitario": 359.99,
-          "tipoAccesorio": "ring",
-          "imagenes": ["../assets/Productos/ring1.jpg", "../assets/Productos/ring1_2.jpg"],
-          "descripcion": "Exquisite ring featuring celestial motifs, a captivating piece for starry-eyed dreamers.",
-          "stock": {
-              "plata": {
-                  "talla": { "seis": 7, "siete": 8, "ocho": 5 },
-                  "color": "#C0C0C0"
-              }
-          }
+        "silver": {
+          "talla": { "seis": 1, "siete": 17, "ocho": 8 },
+          "color": "##C0C0C0"
+        }
       }
-    ]
-  
+    },
+    {
+      "id": 2,
+      "nombre": "Exquisite Earrings",
+      "codigo": "92701",
+      "precioUnitario": 125.28,
+      "tipoAccesorio": "earring",
+      "imagenes": ["../assets/Productos/Producto2.png", "earring_gold_2.png"],
+      "descripcion": "Gold earring with magnetic closure.",
+      "stock": {
+        "golden": {
+          "talla": { "s": 4, "m": 8 },
+          "color": "#efb810"
+        },
+        "roseGold": {
+          "talla": { "s": 13 },
+          "color": "#C48F7F"
+        },
+        "silver": {
+          "talla": { "s": 7, "m": 2, "l": 3 },
+          "color": "#C0C0C0"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "nombre": "Delights Earrings",
+      "codigo": "92781",
+      "precioUnitario": 327.71,
+      "tipoAccesorio": "earring",
+      "imagenes": [
+        "../assets/Productos/Producto4.jpeg",
+        "earring_silver_gold_2.png"
+      ],
+      "descripcion": "Silver earring with gold-plated with a beautiful dolphin clip.",
+      "stock": {
+        "golden": {
+          "talla": { "m": 7, "l": 10 },
+          "color": "#efb810"
+        },
+        "  roseGold": {
+          "talla": { "s": 7, "m": 2 },
+          "color": "#C48F7F"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "nombre": "Luxury Gems Necklace",
+      "codigo": "82051",
+      "precioUnitario": 168.76,
+      "tipoAccesorio": "necklace",
+      "imagenes": [
+        "../assets/Catalogo/catalogo_producto1.png",
+        "necklace_gem_2.png"
+      ],
+      "descripcion": "Elegant necklace of luxury gems.",
+      "stock": {
+        "golden": {
+          "talla": { "s": 9, "m": 27, "l": 5 },
+          "color": "#efb810"
+        },
+        "silver": {
+          "talla": { "s": 13, "m": 4, "l": 8 },
+          "color": "#C0C0C0"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "nombre": "Aurora Ring",
+      "codigo": "78202",
+      "precioUnitario": 125.28,
+      "tipoAccesorio": "ring",
+      "imagenes": [
+        "../assets/Catalogo/catalogo_producto2.png",
+        "../assets/Catalogo/catalogo_product2_2.png"
+      ],
+      "descripcion": "Dazzling ring inspired by the northern lights.",
+      "stock": {
+        "golden": {
+          "talla": { "cinco": 8, "seis": 16, "siete": 4 },
+          "color": "#efb810"
+        },
+        "silver": {
+          "talla": { "cinco": 6, "seis": 1, "siete": 2 },
+          "color": "#C0C0C0"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "nombre": "Reflections Necklace",
+      "codigo": "82097",
+      "precioUnitario": 620.73,
+      "tipoAccesorio": "necklace",
+      "imagenes": [
+        "../assets/Catalogo/catalogo_producto3.png",
+        "../assets/Catalogo/catalogo_product3_2.png"
+      ],
+      "descripcion": "Necklace with reflective and elegant design.",
+      "stock": {
+        "golden": {
+          "talla": { "s": 2, "m": 11, "l": 5 },
+          "color": "#efb810"
+        },
+        "silver": {
+          "talla": { "s": 3, "m": 16, "l": 1 },
+          "color": "#C0C0C0"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "nombre": "Dreamy Infinity Ring",
+      "codigo": "78224",
+      "precioUnitario": 527.71,
+      "tipoAccesorio": "ring",
+      "imagenes": [
+        "../assets/Catalogo/catalogo_producto4.png",
+        "../assets/Catalogo/catalogo_producto4_2.png"
+      ],
+      "descripcion": "Ring with beautiful and elegant jewels of the highest quality.",
+      "stock": {
+        "golden": {
+          "talla": { "cinco": 2, "seis": 3, "ocho": 8 },
+          "color": "#efb810"
+        },
+        "silver": {
+          "talla": { "cinco": 1, "seis": 2, "ocho": 5 },
+          "color": "#C0C0C0"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "nombre": "Opulent Jewels Ring",
+      "codigo": "78239",
+      "precioUnitario": 168.76,
+      "tipoAccesorio": "ring",
+      "imagenes": [
+        "../assets/Catalogo/catalogo_producto5.png",
+        "../assets/Catalogo/catalogo_producto5_2.png"
+      ],
+      "descripcion": "Infinity ring with a touch of dream.",
+      "stock": {
+        "golden": {
+          "talla": { "cinco": 4, "seis": 18, "siete": 6 },
+          "color": "#efb810"
+        },
+        "silver": {
+          "talla": { "cinco": 1, "seis": 8, "siete": 3 },
+          "color": "#C0C0C0"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "nombre": "Serene Solitaire Earrings",
+      "codigo": "92716",
+      "precioUnitario": 125.28,
+      "tipoAccesorio": "earring",
+      "imagenes": [
+        "../assets/Catalogo/catalogo_producto6.png",
+        "../assets/Catalogo/catalogo_producto6_2.png"
+      ],
+      "descripcion": "Earrings in a beautiful blue tone that convey serenity.",
+      "stock": {
+        "golden": {
+          "talla": { "s": 4, "l": 3 },
+          "color": "#efb810"
+        },
+        "roseGold": {
+          "talla": { "m": 7, "l": 3 },
+          "color": "#C48F7F"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "nombre": "Timeless Halo Earrings",
+      "codigo": "92777",
+      "precioUnitario": 620.73,
+      "tipoAccesorio": "earring",
+      "imagenes": [
+        "../assets/Catalogo/catalogo_producto7.png",
+        "../assets/Catalogo/catalogo_producto7_2.png"
+      ],
+      "descripcion": "Earrings with timeless and elegant halo.",
+      "stock": {
+        "golden": {
+          "talla": { "s": 8 },
+          "color": "#efb810"
+        },
+        "silver": {
+          "talla": { "m": 1, "s": 6 },
+          "color": "#C0C0C0"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "nombre": "Exquisite Earrings",
+      "codigo": "92783",
+      "precioUnitario": 527.71,
+      "tipoAccesorio": "earring",
+      "imagenes": [
+        "../assets/Catalogo/catalogo_producto8.png",
+        "../assets/Catalogo/catalogo_producto8_2.png"
+      ],
+      "descripcion": "Earrings that will accompany you on any special occasion.",
+      "stock": {
+        "golden": {
+          "talla": { "l": 23 },
+          "color": "#efb810"
+        },
+        "silver": {
+          "talla": { "m": 23 },
+          "color": "#C0C0C0"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "nombre": "Timeless Elegance Ring",
+      "precioUnitario": 168.76,
+      "tipoAccesorio": "ring",
+      "imagenes": ["../assets/Catalogo/catalogo_producto_img_grande.png"],
+      "descripcion": "Ring with timeless elegance.",
+      "stock": {
+        "golden": {
+          "talla": { "s": 5, "m": 7, "l": 8 },
+          "color": "#efb810"
+        },
+        "silver": {
+          "talla": { "s": 5, "m": 7, "l": 8 },
+          "color": "#C0C0C0"
+        }
+      }
+    },
+    {
+      "id": 13,
+      "nombre": "Luxury Charms Ring",
+      "precioUnitario": 620.73,
+      "tipoAccesorio": "ring",
+      "imagenes": ["../assets/Catalogo/catalogo_producto9.png"],
+      "descripcion": "Ring with luxury charms.",
+      "stock": {
+        "golden": {
+          "talla": { "s": 8, "m": 10, "l": 12 },
+          "color": "#efb810"
+        },
+        "silver": {
+          "talla": { "s": 8, "m": 10, "l": 12 },
+          "color": "##C0C0C0"
+        }
+      }
+    },
+    {
+      "id": 14,
+      "nombre": "Blissful Bloom Ring",
+      "precioUnitario": 620.73,
+      "tipoAccesorio": "ring",
+      "imagenes": ["../assets/Catalogo/catalogo_producto10.png"],
+      "descripcion": "Ring with flowers for a sense of bliss.",
+      "stock": {
+        "golden": {
+          "talla": { "s": 10, "m": 12, "l": 15 },
+          "color": "#efb810"
+        },
+        "silver": {
+          "talla": { "s": 10, "m": 12, "l": 15 },
+          "color": "#C0C0C0"
+        }
+      }
+    },
+    {
+      "id": 15,
+      "nombre": "Sparkling Ring",
+      "precioUnitario": 620.73,
+      "tipoAccesorio": "ring",
+      "imagenes": ["../assets/Catalogo/catalogo_producto11.png"],
+      "descripcion": "Shining ring to stand out on any occasion.",
+      "stock": {
+        "golden": {
+          "talla": { "s": 12, "m": 15, "l": 18 },
+          "color": "#efb810"
+        },
+        "silver": {
+          "talla": { "s": 12, "m": 15, "l": 18 },
+          "color": "#C0C0C0"
+        }
+      }
+    },
+    {
+      "id": 16,
+      "nombre": "Glimmering Ring",
+      "precioUnitario": 620.73,
+      "tipoAccesorio": "ring",
+      "imagenes": ["../assets/Catalogo/catalogo_producto12.png"],
+      "descripcion": "Ring that glimmers with its own light.",
+      "stock": {
+        "golden": {
+          "talla": { "s": 15, "m": 18, "l": 20 },
+          "color": "#efb810"
+        },
+        "silver": {
+          "talla": { "s": 15, "m": 18, "l": 20 },
+          "color": "#C0C0C0"
+        }
+      }
+    },
+    {
+      "id": 17,
+      "nombre": "Eternal Love Necklace",
+      "codigo": "91234",
+      "precioUnitario": 450.99,
+      "tipoAccesorio": "necklace",
+      "imagenes": [
+        "../assets/Productos/necklace1.jpg",
+        "../assets/Productos/necklace1_2.jpg"
+      ],
+      "descripcion": "Stunning necklace symbolizing eternal love, perfect for any occasion.",
+      "stock": {
+        "silver": {
+          "talla": { "única": 15 },
+          "color": "#C0C0C0"
+        }
+      }
+    },
+    {
+      "id": 18,
+      "nombre": "Crystal Elegance Earrings",
+      "codigo": "83746",
+      "precioUnitario": 199.99,
+      "tipoAccesorio": "earring",
+      "imagenes": [
+        "../assets/Productos/earring1.jpg",
+        "../assets/Productos/earring1_2.jpg"
+      ],
+      "descripcion": "Elegant earrings featuring shimmering crystals, adding a touch of sophistication to any outfit.",
+      "stock": {
+        "golden": {
+          "talla": { "única": 10 },
+          "color": "#efb810"
+        }
+      }
+    },
+    {
+      "id": 19,
+      "nombre": "Sapphire Dreams Necklace",
+      "codigo": "94672",
+      "precioUnitario": 799.99,
+      "tipoAccesorio": "necklace",
+      "imagenes": [
+        "../assets/Productos/necklace2.jpg",
+        "../assets/Productos/necklace2_2.jpg"
+      ],
+      "descripcion": "Dreamy necklace adorned with sapphire stones, making it a truly luxurious piece.",
+      "stock": {
+        "golden": {
+          "talla": { "m": 5 ,"l":2},
+          "color": "#efb810"
+        }
+      }
+    },
+    {
+      "id": 20,
+      "nombre": "Celestial Beauty Ring",
+      "codigo": "76289",
+      "precioUnitario": 359.99,
+      "tipoAccesorio": "ring",
+      "imagenes": [
+        "../assets/Productos/ring1.jpg",
+        "../assets/Productos/ring1_2.jpg"
+      ],
+      "descripcion": "Exquisite ring featuring celestial motifs, a captivating piece for starry-eyed dreamers.",
+      "stock": {
+        "silver": {
+          "talla": { "seis": 7, "siete": 8, "ocho": 5 },
+          "color": "#C0C0C0"
+        }
+      }
+    }
+  ],
+  "carrito":[
+
+  ]
 }
