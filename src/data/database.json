@@ -551,26 +551,5 @@
     }
   ],
   "carrito": [
-      {
-      "id": "f954",
-      "products": [
-        {
-          "idProduct": "4",
-          "especificaciones": {
-            "color": "golden",
-            "size": "s",
-            "quantity": "1"
-          }
-        },
-        {
-          "idProduct": "4",
-          "especificaciones": {
-            "color": "golden",
-            "size": "s",
-            "quantity": "1"
-          }
-        }
-      ]
-    }
   ]
 }
